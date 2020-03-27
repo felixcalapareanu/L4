@@ -1,0 +1,15 @@
+# include < stdio.h >
+# include < stdlib.h >
+int  principal ()
+{
+	int n;
+	printf ( " Dati numarul: " ); scanf ( " % d " , & n);
+	if ((n | 0 ) == 0 )
+		printf ( " \ n Numarul este nul " );
+	else  if ((n & ( 1 << 31 )) == 0 )
+		printf ( " \ n % d este numar pozitiv " , n);
+	altfel
+		printf ( " \ n % d este numar negativ " , n);
+	sistem ( „ pauzã ” );
+	returnare  0 ;
+}
